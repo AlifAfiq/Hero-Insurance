@@ -21,7 +21,7 @@ This project models the data requirements and business rules of Hero Insurance I
 
     - Compensation & Payment
 
-  3. [Entity Highlights](#entity-higlights)
+  3. [Entity Highlights](#entity-highlights)
 
   4. [Tools Used](#tools-used)
 
