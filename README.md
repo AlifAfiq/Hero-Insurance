@@ -5,7 +5,7 @@ This project models the data requirements and business rules of Hero Insurance I
 
   1. [Overview](#overview)
 
-  2. [Business Rules & Key Features](#business-rules-and-key-features)
+  2. [Business Rules and Key Features](#business-rules-and-key-features)
 
     - Policyholders
 
