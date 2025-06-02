@@ -3,9 +3,9 @@ This project models the data requirements and business rules of Hero Insurance I
 
 ## 📚 Table of Contents
 
-  1. [Overview](#overview)
+  1. [Overview](#1.-overview)
 
-  2. [Business Rules & Key Features](#business-rules-&-key-features)
+  2. [Business Rules & Key Features](#2.-business-rules-&-key-features)
 
     - Policyholders
 
@@ -21,9 +21,9 @@ This project models the data requirements and business rules of Hero Insurance I
 
     - Compensation & Payment
 
-  3. [Entity Highlights](#entity-higlights)
+  3. [Entity Highlights](#3.-entity-higlights)
 
-  4. [Tools Used](#tools-used)
+  4. [Tools Used](#4.-tools-used)
 
 ## 1. Overview
 Hero Insurance Inc. provides auto insurance policies to both individuals and organisations. The company handles complex real-world scenarios such as accident reporting, repair tracking, compensation, and policy renewal. This ERD design forms the foundation for implementing a relational database to manage the company's core operations.
