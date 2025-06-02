@@ -3,9 +3,9 @@ This project models the data requirements and business rules of Hero Insurance I
 
 ## 📚 Table of Contents
 
-  1. [Overview](#1.-overview)
+  1. [Overview](#overview)
 
-  2. [Business Rules & Key Features](#2.-business-rules-&-key-features)
+  2. [Business Rules & Key Features](#business-rules-&-key-features)
 
     - Policyholders
 
@@ -21,16 +21,16 @@ This project models the data requirements and business rules of Hero Insurance I
 
     - Compensation & Payment
 
-  3. [Entity Highlights](#3.-entity-higlights)
+  3. [Entity Highlights](#entity-higlights)
 
-  4. [Tools Used](#4.-tools-used)
+  4. [Tools Used](#tools-used)
 
-## 1. Overview
+## Overview
 Hero Insurance Inc. provides auto insurance policies to both individuals and organisations. The company handles complex real-world scenarios such as accident reporting, repair tracking, compensation, and policy renewal. This ERD design forms the foundation for implementing a relational database to manage the company's core operations.
 
 
 
-## 2. Business Rules & Key Features
+## Business Rules & Key Features
 
   a. Policyholders
 Can be individuals or organisations. For individuals, personal information is collected, including name, gender, age, occupation, marital status, and contact details. For organisations, business data such as name, industry, and annual revenue is recorded. A main contact person is associated with each organization.
@@ -39,13 +39,13 @@ Can be individuals or organisations. For individuals, personal information is co
 Each policy insures one vehicle, with details like registration number, make & model, VIN, condition, value, and parking location.
 
   c. Policies
-Policies can be issued or renewed annually. Renewed policies are treated as new records but are linked to the previous policy. Policy data includes coverage details, start/end/renewal dates, premium payments, and scheduled payment plans. Each policy lists multiple authorized drivers.
+Policies can be issued or renewed annually. Renewed policies are treated as new records but are linked to the previous policy. Policy data includes coverage details, start/end/renewal dates, premium payments, and scheduled payment plans. Each policy lists multiple authorised drivers.
 
   d. Drivers & Driving History
-Each driver has a license number and years of experience. Historical data on past accidents and traffic violations is collected to assess risk.
+Each driver has a license number and years of experience. Historical data on past accidents and traffic violations are collected to assess risk.
 
   e. Claims
-Claims are made when policyholders report an incident. Each claim is handled by a claims adjuster (employee) who verifies the incident and investigates the damage.Claim details include accident info, police reports, witness statements, and photos.
+Claims are made when policyholders report an incident. Each claim is handled by a claims adjuster (employee) who verifies the incident and investigates the damage. Claim details include accident info, police reports, witness statements, and photos.
 
   f. Repairs
 A single accident can involve one or more repair jobs. Each repair job may consist of multiple repair tasks, and both estimated and actual costs are recorded. Repair estimates are collected from various repair shops.
@@ -54,7 +54,7 @@ A single accident can involve one or more repair jobs. Each repair job may consi
 Once a claim is approved, compensation is calculated per repair job. Payments are processed directly to the policyholder, and the claim is marked as closed once all conditions are met.
 Claim history is stored for every policy.
 
-## 3. Entity Highlights
+## Entity Highlights
 PolicyHolder (Individual/Organisation)
 
 Driver, DrivingExperience, TrafficViolation, DriverAccident
@@ -67,10 +67,10 @@ Claim, ClaimPayment, ClaimRepairCompensation
 
 RepairJob, RepairTask, RepairEstimate, RepairShop
 
-Witness, PoliceReport, ClaimsAdjuster
+Witness, PoliceReport, Employee
 
 
-## 4. Tools Used
+## Tools Used
 ERD Tool: Draw.io
 
 Notation: Crow’s Foot Notation
