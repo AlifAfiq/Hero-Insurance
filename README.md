@@ -5,7 +5,7 @@ This project models the data requirements and business rules of Hero Insurance I
 
   1. [Overview](#overview)
 
-  2. [Business Rules & Key Features](#business-rules-&-key-features)
+  2. [Business Rules & Key Features](#business-rules-and-key-features)
 
     - Policyholders
 
@@ -30,7 +30,7 @@ Hero Insurance Inc. provides auto insurance policies to both individuals and org
 
 
 
-## Business Rules & Key Features
+## Business Rules and Key Features
 
   a. Policyholders
 Can be individuals or organisations. For individuals, personal information is collected, including name, gender, age, occupation, marital status, and contact details. For organisations, business data such as name, industry, and annual revenue is recorded. A main contact person is associated with each organization.
