@@ -3,7 +3,7 @@ This project models the data requirements and business rules of Hero Insurance I
 
 [Link to ERD on draw.io](https://docs.google.com/document/d/1x4-N3zaBd4s3ilHYEuRyYyArRYi4IcDXOPbBkEa2Xdc/edit?usp=sharing)
 
-[Link to Hero Insurance Inc. Data Description]([Hero-Insurance/Hero Insurance Inc. Data Description.pdf](https://docs.google.com/document/d/1x4-N3zaBd4s3ilHYEuRyYyArRYi4IcDXOPbBkEa2Xdc/edit?usp=sharing)
+[Link to Hero Insurance Inc. Data Description](https://docs.google.com/document/d/1x4-N3zaBd4s3ilHYEuRyYyArRYi4IcDXOPbBkEa2Xdc/edit?usp=sharing)
 
 
 ## Table of Contents
