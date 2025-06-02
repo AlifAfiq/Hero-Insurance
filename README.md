@@ -1,7 +1,7 @@
-# 🔖 Hero Insurance Inc. – Auto Insurance ERD Design
+# Hero Insurance Inc. – Auto Insurance ERD Design
 This project models the data requirements and business rules of Hero Insurance Inc., an auto insurance company, by developing a detailed Entity-Relationship Diagram (ERD). The purpose is to capture all critical components related to policyholders, drivers, vehicles, insurance policies, claims, and the repair process.
 
-## 📚 Table of Contents
+## Table of Contents
 
   1. [Overview](#overview)
 
